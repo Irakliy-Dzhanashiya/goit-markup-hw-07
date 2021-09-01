@@ -1,0 +1,47 @@
+.subscribe__form {
+  display: inline-flex;
+  justify-content: flex-end;
+  &__email {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--lightblack);
+    width: 358px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    margin-right: 12px;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+  }
+  &__button {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: var(--white);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 62px;
+    padding-left: 29px;
+  }
+  &__button__send {
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    fill: var(--white);
+    margin-left: 10px;
+  }
+}
